@@ -1,0 +1,31 @@
+.w3-progress-container{
+    width:100%;
+    height:1.5em;
+    position:relative;
+    background-color:#f1f1f1;
+    
+
+    
+}
+
+.w3-progressbar{
+    background-color:#757575;
+    height:100%;position:absolute;
+    line-height:inherit;
+        
+}
+
+.w3-round-xlarge{
+    border-radius:16px!important
+}
+
+/* .diagnalstrips{
+    background-image: repeating-linear-gradient(
+        135deg, rgb(244, 30, 76), rgb(188, 96, 123) 10px, rgba(152, 70, 134, 0.9) 10px, rgb(152, 84, 70) 20px) !important;
+} */
+
+
+ .diagnalstrips{
+    background-image: repeating-linear-gradient( 135deg, rgba(0,0,0,.5), rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px) !important;}  
+    
+   

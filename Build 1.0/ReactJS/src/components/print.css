@@ -1,0 +1,16 @@
+@media print{
+    #dropHere{
+        display: block;
+        position: absolute;
+        top:6%;
+        left:0;
+    }
+    #pageFooter{
+        display: block;
+        position: absolute;
+        width:95%; 
+            bottom: 25px;
+            left: 2px;
+    }
+ 
+ }
