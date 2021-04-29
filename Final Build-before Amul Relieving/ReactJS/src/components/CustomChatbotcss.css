@@ -1,0 +1,22 @@
+ @media screen and (max-width: 568px){
+
+.fNZmHv {
+ /*    border-radius: 0;
+    bottom: 0 !important;
+    left: initial !important;
+    height: 70%!important;
+    right: 0 !important;
+    top: initial !important;
+    width: 100%; */
+
+    border-radius: 0;
+    bottom: 0 !important;
+    left: auto !important;
+    left: 14%!important;
+    height: 70%!important;
+    right: 0% !important;
+    top: auto !important;
+    top: initial !important;
+    width: 85%;
+} 
+ }

@@ -1,0 +1,331 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-color:#4fc8ff!important; */
+  /* background:linear-gradient(to bottom right, #00BCD4, #3F51B5); */
+  /*  background:linear-gradient(linear, left top, right bottom, from(#f1f1f1), to(#9eacb8)); 
+    background:linear-gradient(to bottom right,#f1f1f1, #9eacb8);*/
+  /* background-image: url(/static/media/logbg2.abc95380.png); */
+  /* background: url("./image/logbg3.png")  center fixed;
+    
+     background: url("./image/doodlebg1.png")  center fixed; 
+    */
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  /* background-image: url("./image/empbgimage6.png");*/
+  /* background-size:100% 400%; 
+      background-size: inherit;
+      background-repeat: no-repeat;*/
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.loginpage {
+  /*  background-color: green; tictockwbg */
+  /*  background-image: url("./image/logbg3.png"); 
+     */
+  background-size: cover;
+  /* background: linear-gradient(to right bottom, #9C27B0, rgba(237, 22, 22, 0.92)) #673AB7;  
+     */
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.logbg_svg {
+  background-image: url("./image/login svg/logbg.svg");
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#log_bg {
+  position: absolute;
+  top: 80px;
+  width: 25%;
+  height: 33%;
+  z-index: -2;
+  animation-duration: 13s;
+  animation-name: animateBG;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  left: -165px;
+}
+
+#gradient-horizontal {
+  /*  
+  
+  --color-stop-1: #a770ef;
+  --color-stop-2: #cf8bf3;
+  --color-stop-3: #fdb99b;  */
+  
+ /*  --color-stop-1:  #a6d6c6;
+  --color-stop-2: #048573;
+  --color-stop-3: #002f52; */
+
+  --color-stop-1:  #FFCCBB;
+  --color-stop-2: #6EB5C0;
+  --color-stop-3: #006C84;
+
+
+ /*  --color-stop-1: #3a9ebd;
+  --color-stop-2: #b63e9c;
+  --color-stop-3: #ebb39b; */
+}
+
+#log_bg .cls-1 {
+  /*  fill:red; */
+  fill: url(#gradient-horizontal) gray;
+}
+
+#log_bg1 {
+  position: absolute;
+  bottom: -9%;
+  width: 5%;
+  /* height: 35%; */
+  z-index: -2;
+  /* float: right; */
+  left: 235px;
+  /* margin: 10px auto; */
+  transform: rotate(270deg);
+}
+#log_bg1 .cls-1 {
+  /*  fill:red; */
+  fill: url(#gradient-horizontal) gray;
+}
+
+#log_bg2 {
+  position: absolute;
+  /* bottom: 8%; */
+  width: 35%;
+  height: 50%;
+  z-index: -2;
+  /* float: right; */
+  /* left: -20px; */
+  /* margin: 10px auto; */
+  top: -85px;
+  right: 0px;
+}
+
+#log_bg2 .cls-1 {
+  /*  fill:red; */
+  fill: url(#gradient-horizontal) gray;
+}
+
+/* @-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+} */
+
+@keyframes animateBG {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cls-1 {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.cls-1 {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.loginpage .login-container {
+  height: 410px;
+  width: 280px;
+  /*//background-image: url("./image/.jpg");*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+#logbg {
+  margin-top: 90px;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 10px 14px 0px #a2a2a2;
+  /* background-color: rgb(38, 66, 92); */
+  /* background: linear-gradient(to right bottom,#ee4158, #5a043c) #19abf1;
+   */
+  /*background: linear-gradient(to right bottom, #FFC107, #ce00ff) #03A9F4;
+           background-image: url("./image/tictockwbg1.png");
+        width: 250px!important;
+  background-size: cover;
+  border-radius: 18px;    
+           */
+}
+
+#login_details {
+  padding-top: 33px!important;
+  padding-bottom: 40px;
+}
+
+#imgtic {
+  text-align: center;
+  margin-top: -30px;
+
+}
+
+.lod_Id {
+  margin-bottom: -14px;
+  margin-top: 10px;
+  color: #09544d;
+  font-size: 25px;
+}
+.containerlogin{
+  padding-top: 15%;
+}
+
+.welcome_cont{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text_feild {
+  background-color: #efe7e2;
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  /* border-radius: 20px; */
+  padding: 20px 0px;
+  /* margin: 0px 62px; */
+  border-color: #ee82ee00;
+  
+  /* margin: 0px 62px;
+  border: 1px solid #f00;*/
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(239, 6, 6, 0);
+  border-bottom: 1px solid rgb(224, 157, 55)!important;
+}
+
+.check_1 {
+  margin: auto;
+  width: fit-content;
+  color: black;
+}
+
+#imgcont {
+  width: 65%;
+  margin-top: 15%;
+  /* margin-left: 60px;*/
+}
+
+#loginname {
+  text-align: center;
+}
+
+#forgetpwdID {
+  font-size: 13px;
+}
+
+#signUpID {
+  
+  font-size: 13px;
+}
+
+#loginSubmitButton {
+  text-align: center;
+  color: white;
+  width: 40%; 
+  background-color: rgb(199, 14, 59);
+  margin-top: 0%;/* 
+  background-image: linear-gradient(140deg, #3f2cbb, #7d54dc); */
+/*   background-image: linear-gradient(140deg, #026265, #5cb1a0); */
+  background-image: linear-gradient(140deg, #077188, #64afbb);
+}
+
+#loginSubmitButton1 {
+  text-align: center;
+}
+
+@media only screen and (max-width:768px){
+ 
+  
+  #imgcont {
+    width: 30%;
+    margin-top: 18%;
+    margin-left: 0px;
+}
+#imgtic {
+  text-align: center;
+  margin-top: -55px;
+}
+.welcome_cont {
+  text-align: center;
+  margin-top: 0px;
+}
+#login_details {
+  padding-top: 15px!important;
+  padding-bottom: 18px;
+}
+
+.containerlogin {
+  padding-top: 2%;
+}
+.lod_Id {
+ /*  margin-bottom: -50px;
+  margin-top: 5px;
+  color: #009688;
+  font-size: 15px; */
+}
+#logbg {
+  margin-top: 20%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 10px 14px 0px #a2a2a2;
+}
+#loginSubmitButton {
+  text-align: center;
+  color: white;
+  width: 50%;
+}
+#log_bg {
+  display: none;
+}
+#log_bg1 {
+  display: none;
+}
+#log_bg2 {
+  display: none;
+}
+}
